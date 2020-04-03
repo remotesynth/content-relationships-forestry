@@ -21,11 +21,11 @@ fields:
   type: select
   default: []
   config:
-    required: false
+    required: true
     options: []
     source:
-      type: simple
-      section: 
+      type: pages
+      section: authors
       file: 
       path: 
   label: Author
@@ -33,8 +33,13 @@ fields:
 - name: related_posts
   type: list
   config:
-    use_select: false
+    use_select: true
     min: 
     max: 
+    source:
+      type: pages
+      section: posts
+      file: 
+      path: 
   label: Related Posts
   description: Other relevant posts
