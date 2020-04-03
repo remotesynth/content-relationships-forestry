@@ -1,10 +1,10 @@
 ---
 title: The Last Jedi Was Good
 date: 2020-04-01
-author: brian-rinaldi
+author: authors/brian-rinaldi.md
 related_posts:
-- return-of-skywalker-awful
-- han-shot-first
+- posts/han-shot-first.md
+- posts/return-of-skywalker-awful.md
 
 ---
 Did it have flaws? Yes. Was it light years better than RoS? Absolutely.
