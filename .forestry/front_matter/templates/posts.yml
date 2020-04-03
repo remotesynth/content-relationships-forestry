@@ -1,4 +1,40 @@
 ---
 label: Posts
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: The title of the post
+- name: date
+  type: datetime
+  label: Date
+  description: The date it was posted
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Author
+  description: The author of the post
+- name: related_posts
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Related Posts
+  description: Other relevant posts
