@@ -1,0 +1,28 @@
+pages:
+  - content/posts
+hide_body: false
+fields:
+  - name: title
+    label: Title
+    required: true
+    type: text
+  - name: date
+    label: Date
+    required: true
+    type: datetime
+  - name: author
+    label: Author
+    required: true
+    type: select
+    config:
+      source:
+        type: pages
+        section: authors
+  - name: related_posts
+    label: Related Posts
+    required: false
+    type: sortable
+    config:
+      source:
+        type: pages
+        section: posts
