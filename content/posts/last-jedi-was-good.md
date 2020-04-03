@@ -3,7 +3,6 @@ title: The Last Jedi Was Good
 date: 2020-04-01
 author: brian-rinaldi
 related_posts:
-- posts/return-of-skywalker-awful.md
 - return-of-skywalker-awful
 - han-shot-first
 
