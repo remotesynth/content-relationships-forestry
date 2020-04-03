@@ -5,12 +5,26 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
-- type: text
+  config:
+    required: true
+- type: select
   name: author
   label: author
+  config:
+    required: true
+    source:
+      type: pages
+      section: authors
 - type: list
   name: related_posts
   label: related_posts
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: posts
