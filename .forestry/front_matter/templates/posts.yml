@@ -28,5 +28,3 @@ fields:
     source:
       type: pages
       section: posts
-pages:
-- content/posts/testing-new-post.md
